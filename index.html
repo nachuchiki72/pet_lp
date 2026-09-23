@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>なちゅの自己紹介ページ！</title>
+<link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">   
+<link rel="stylesheet" href="style.css">
+</head>  
+<body>
+<header>   
+    <h1>こんにちは！なちゅの自己紹介ページへようこそ！</h1>
+    <p>ここでは、たくさんのペットたちと暮らす日々を紹介します！</p>
+</header>
+<a href="#intro" class="hero-button">なちゅについて見る</a>
+
+<section class="intro fade-in">
+    <h2>☆自己紹介☆</h2>
+    <p>ペットショップで働きながら、たくさんの動物さんたちと暮らしています。
+    　 毎日小さな命たちと向き合いながら、癒しと喜びを感じています！
+    </p>
+    <h2>name.なちゅ</h2>
+    <h2>趣味: 動物さんたちのお世話</h2>
+    <h2>好きな食べ物: パートナーが作るご飯全部！、フライドポテト、</h2>
+    <h2>将来の夢: パートナーと2人でお仕事がしたい！</h2>
+</section>
+<section class="pets fade-in">
+    <h2>我が子たちの紹介</h2>
+    <div class="pet-list fade-in">
+
+    <div class="pet fade-in">
+    <img src="images/IMG_heart.jpg" alt="はあと" onclick="toggleDescription('heart')">
+        <p>ミックス猫のはあと❤️</p>
+        <div id="heart" class="description">
+            <p>はあとは知り合いの方から紹介して頂いた保護猫で生後１ヶ月くらいで我が家に来ました！2時間おきのミルクで💩も自力でできなくて病院に通ったりもしてましたが、今では立派な我が家の長男になりました！</p>
+        </div>>
+    </div>
+
+    <div class="pet fade-in">    
+    <img src="images/IMG_rai.jpg" alt="ライ" onclick="toggleDescription('rai')">
+        <p>マルプーのライ❤️</p>
+        <div id="rai" class="description">
+            <p>人懐っこくてビビりなライ！何度も会うワン友のパパさんママさんに甘え散らかすライはみんなの人気者！ただただ柴犬が苦手で、会うと吠えまくります💦でも、慣れちゃえば仲良しになれるとても賢い子です！
+            </p>
+        </div>>
+    </div>
+
+    <div class="pet fade-in">
+    <img src="images/IMG_reno.jpg" alt="レノ" onclick="toggleDescription('reno')">
+        <p>トイプーのレノ❤️</p>
+        <div id="reno" class="description">
+            <p>レノはとにかく甘えん坊でママっ子！兄弟たちにすぐキレるマイペースボーイ💦
+                でも、家族みんなのことが大好きですぐにペロペロしにくる可愛いやつです！
+            </p>
+        </div>>
+    </div>
+
+    <div class="pet fade-in"> 
+    <img src="images/IMG_roa.jpg" alt="ロア" onclick="toggleDescription('roa')">
+        <p>マルチーズのロア❤️</p>
+        <div id="roa" class="description">
+            <p>ロアはとにかく食いしん坊で、食べ物のことになると目の色が変わります💦
+                お姉ちゃんが大好きでお姉ちゃんが学校から帰ってくると大喜びでお出迎えしてくれます！
+            </p>
+        </div>>
+    </div>
+
+    <div class="pet fade-in">    
+    <img src="images/IMG_ruu.jpg" alt="ルゥ" onclick="toggleDescription('ruu')">
+        <p>トイプーのルゥ❤️</p>
+        <div id="ruu" class="description">
+            <p>ルゥはとにかく元気いっぱいで遊ぶの大好きっ子！1人でおもちゃで上手に遊んでます！ご飯の時間も大好きで、飛び上がって喜びます！家族みんなのことが大好きな甘えん坊さんです！
+            </p>
+        </div>>
+    </div>
+    <div class="pet fade-in">    
+    <img src="images/IMG_pitokoro.jpg" alt="ピトコロ" onclick="toggleDescription('pi')">
+        <p>ウロコインコのピトちゃんとコロちゃん❤️</p>
+        <div id="pi" class="description">
+            <p>ピトちゃんはツンデレ！コロちゃんはかまってちゃんな2羽のウロコインコ！2羽とも人懐っこくて、肩に乗ってきたり頭を撫でられるのが大好きです！
+            </p>
+        </div>>
+    </div>
+
+    <div class="pet fade-in">    
+    <img src="images/IMG_chikuwa.jpg" alt="ちくわ" onclick="toggleDescription('chikuwa')">
+        <p>ミーアキャットのちくわ❤️</p>
+        <div id="chikuwa" class="description">
+            <p>ちくわはとにかく好奇心旺盛で、ケージの外に出るとあちこち探検しまくります！人懐っこくて甘えん坊！ミーアキャット特有の背筋を伸ばして立つ姿がとっても可愛いです！三女のことが大好きです❤️
+            </p>
+        </div>>
+    </div>
+
+    <div class="pet fade-in">    
+    <img src="images/IMG_rui.jpg" alt="ルイ" onclick="toggleDescription('rui')">
+        <p>サバンナモニターのルイ❤️</p>
+        <div id="rui" class="description">
+            <p>ルイはサバンナモニターだということを忘れるくらいおっとりしているオオトカゲですw大人しくてご飯を食べるのが下手だけどそこも可愛い！いつもリクガメのこたろうにご飯を横取りされてます💦
+            </p>
+        </div>>
+    </div>
+
+    <div class="pet fade-in">    
+    <img src="images/IMG_kotarou.jpg" alt="こたろう" onclick="toggleDescription('kotarou')">
+        <p>アカアシリクガメのこたろう❤️</p>
+        <div id="kotarou" class="description">
+            <p>こたろうは人生で初めて飼育をしている爬虫類！私を爬虫類の沼に落とした子です💦ルイのご飯を横取りする困ったちゃんですが、のんびり屋さんで見ているだけで癒されます！お散歩も大好きで、家中を探検してます！
+            </p>
+        </div>>
+    </div>
+    
+    </div>
+</section>
+    <p>このページを訪れてくれてありがとうございます！これから色んなサイトを作っていきたいです！</p>
+    <footer class="sns-links">
+        <h2>フォローよろしくお願いします！</h2>
+        <div class="sns-buttons">
+            <a href="https://www.instagram.com/kotarou08_heart/" target="_blank" class="sns-btn insta">Instagram</a>
+        </div>
+    </footer>
+</body>
+<script>
+    function toggleDescription(id) {
+        const desc = document.getElementById(id);
+        if (desc.style.display === "none" || desc.style.display === "") {
+            desc.style.display = "block";
+        } else {
+            desc.style.display = "none";
+        }
+    }
+</script>
+<script>
+    //スクロールでフェードイン
+    const fadeInElements = document.querySelectorAll('.fade-in');
+
+    function handleScroll() {
+        fadeInElements.forEach(element => {
+            const rect = element.getBoundingClientRect();
+            if (rect.top < window.innerHeight - 100) {
+                element.classList.add('show');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // 初回チェック
+</script>
+</html>
