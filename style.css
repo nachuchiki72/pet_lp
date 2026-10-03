@@ -33,7 +33,7 @@ h2{
   margin-bottom: 20px;
   text-align: center;
 }
-2026/10/02/ここからモーダルのCSS
+/* 2026/10/02/ここからモーダルのCSS */
 .modal {
   position: fixed;
   top: 0;
