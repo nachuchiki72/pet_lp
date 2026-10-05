@@ -33,6 +33,20 @@ h2{
   margin-bottom: 20px;
   text-align: center;
 }
+
+.hero-button {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 30px;
+  width: max-content;
+  font-size: 18px;
+  color: #fff;
+  background-color: #ff80aa;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
 /* 2026/10/02/ここからモーダルのCSS */
 .modal {
   position: fixed;
@@ -70,16 +84,32 @@ h2{
   max-height: 70%;
   padding: 20px;
   margin: auto;
-  overflow: scroll;
+  overflow: auto;
   background-color: #ffffff;
   border-radius: 12px;
 }
 
-.modal-content {
+/* 2026/10/05/モーダルの中に写真 */
+.modal-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  /* display: block; */
   margin: 0;
+  object-fit: cover;  
+}
+
+.modal-content { 
+  text-align: center;
+  margin: 30px auto 20px;
   font-size: 4rem;
   line-height: 1.2em;
   letter-spacing: -0.02em;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  margin-bottom: -10px;
 }
 
 #pet-list {
